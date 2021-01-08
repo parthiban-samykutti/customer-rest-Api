@@ -1,16 +1,16 @@
 package com.customer.api.responses;
 
-import com.customer.api.Customer;
+import com.customer.api.model.Customer;
 
-public class GetCustomerResponse {
+public class CustomerBaseResponse {
 
 	private Customer data;
 
-	public GetCustomerResponse(Customer customer) {
+	public CustomerBaseResponse(Customer customer) {
 		this.setData(customer);
 	}	
 	
-	public GetCustomerResponse () {
+	public CustomerBaseResponse () {
 		
 	}
 

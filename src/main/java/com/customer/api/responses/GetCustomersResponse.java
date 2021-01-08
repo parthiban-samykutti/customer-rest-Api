@@ -1,6 +1,8 @@
-package com.customer.api;
+package com.customer.api.responses;
 
 import java.util.List;
+
+import com.customer.api.model.Customer;
 
 public class GetCustomersResponse {
 

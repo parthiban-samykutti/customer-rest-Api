@@ -1,4 +1,4 @@
-package com.customer.api;
+package com.customer.api.model;
 import java.util.UUID;
 public class Customer {
     private String id;
